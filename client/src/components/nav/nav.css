@@ -1,0 +1,42 @@
+#header {
+    background-color: blue;
+}
+
+#header-title {
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-size: larger;
+    text-shadow: 2px 2px black;
+    padding: 15px;
+    width: 100%;
+}
+
+#tab-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-tab {
+    background-color: red;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin: 0 15px;
+    width: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-tab-text {
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-size: larger;
+
+    padding: 15px;
+
+    text-shadow: 2px 2px black;
+}
