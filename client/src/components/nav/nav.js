@@ -10,14 +10,18 @@ class Nav extends Component {
     render() {
         return(
             <div id="header">
-                <div id="header-title">flixlist</div>
+                <div id="header-title"><a href="/"><span>flixlist</span></a></div>
                 <div id="tab-list">
-                    <div className="nav-tab">
-                        <span className="nav-tab-text">MOVIES</span>
-                    </div>
-                    <div className="nav-tab">
-                        <span className="nav-tab-text">TV</span>
-                    </div>
+                    <a href="/movies">
+                        <div className="nav-tab" id="movies-tab">
+                            <span className="nav-tab-text">MOVIES</span>
+                        </div>
+                    </a>
+                    <a href="/tv">
+                        <div className="nav-tab" id="tv-tab">
+                            <span className="nav-tab-text">TV</span>
+                        </div>
+                    </a>
                 </div>
             </div>
         )

@@ -6,10 +6,15 @@
     color: white;
     font-weight: bold;
     font-style: italic;
-    font-size: larger;
+    font-size: 2em;
     text-shadow: 2px 2px black;
     padding: 15px;
     width: 100%;
+}
+
+#header-title a {
+    text-decoration: none;
+    color: white;
 }
 
 #tab-list {
@@ -18,16 +23,31 @@
     justify-content: center;
 }
 
+#tab-list a {
+    text-decoration: none;
+    color: white;
+}
+
 .nav-tab {
-    background-color: red;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
     margin: 0 15px;
     width: 200px;
 
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#movies-tab {
+    background-color: red;
+}
+
+#tv-tab {
+    background-color: green;
 }
 
 .nav-tab-text {
