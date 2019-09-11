@@ -1,5 +1,25 @@
 #main {
-    background-color: white;
+    background-color: #776C87;
+
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
 
     height: 100vh;
+}
+
+#recommended {
+    background-color: #d6d6d6;
+    border: 2px solid #221E22;
+    border-radius: 5px;
+    
+    padding: 20px 75px;
+    margin: 15px 0;
+    width: fit-content;
+    height: 250px;
+}
+
+#rec-header {
+    font-weight: bold;
+    font-style: italic;
 }

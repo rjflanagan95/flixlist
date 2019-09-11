@@ -10,7 +10,17 @@ class Main extends Component {
     render() {
         return(
             <div id="main">
-                <span>some stuff</span>
+                <div id="recommended">
+                    <span id="rec-header">Recommended Searches</span>
+                    <div>
+                        <ul>
+                            <li>Popular Movies</li>
+                            <li>Movies from the 80s</li>
+                            <li>Dramatic Movies</li>
+                            <li>Popular TV Shows</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         )
     }
