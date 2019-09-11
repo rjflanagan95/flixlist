@@ -1,4 +1,5 @@
 const express = require("express");
+const path = require("path");
 const dotenv = require("dotenv");
 dotenv.config();
 
@@ -16,6 +17,10 @@ if (process.env.NODE_ENV === "production") {
 }
 
 app.use(routes);
+app.use(express.static(path.join(__dirname, "client/build")));
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "client", "build", "index.html"));
+});
 
 // Start the API server
 app.listen(PORT, function() {
