@@ -8,8 +8,7 @@ module.exports = {
         let searchTerm = "batman+begins";
         // console.log(req.body);
 
-        // this URL only ever returns a list of currently popular movies
-        let queryURL = "https://api.themoviedb.org/3/discover/movie?api_key=" + movieKey + "&query=" + searchTerm;
+        let queryURL = "https://api.themoviedb.org/3/search/movie?api_key=" + movieKey + "&query=" + searchTerm;
 
         request(queryURL, function(err, response, body) {
             if (err) {
