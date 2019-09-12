@@ -2,3 +2,7 @@
     background-color: #00A6A6;
     height: 100vh;
 }
+
+.results-area {
+    overflow: scroll;
+}

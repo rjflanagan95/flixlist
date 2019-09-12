@@ -4,9 +4,7 @@ module.exports = {
     searchMovies: async function(req, res) {
         const movieKey = process.env.TMDB_KEY;
 
-        // let searchTerm = req.body;
-        let searchTerm = "batman+begins";
-        // console.log(req.body);
+        let searchTerm = req.body.query;
 
         let queryURL = "https://api.themoviedb.org/3/search/movie?api_key=" + movieKey + "&query=" + searchTerm;
 

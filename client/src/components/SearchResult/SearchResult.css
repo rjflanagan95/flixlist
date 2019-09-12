@@ -2,6 +2,31 @@
     border: 2px solid white;
     border-radius: 8px;
 
-    padding: 5px;
+    padding: 15px;
     margin: 10px;
+
+    width: 670px;
+    height: 450px;
+}
+
+.search-poster {
+    float: left;
+    padding-right: 10px;
+}
+
+.search-title {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.search-release {
+    font-style: italic;
+    font-size: small;
+    float: right;
+}
+
+.search-overview {
+    overflow: scroll;
+
+    padding: 5px;
 }
