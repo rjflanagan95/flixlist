@@ -6,7 +6,9 @@
     margin: 10px;
 
     width: 670px;
-    height: 450px;
+    height: fit-content;
+
+    display: inline-block;
 }
 
 .search-poster {

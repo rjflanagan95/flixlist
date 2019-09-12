@@ -5,4 +5,5 @@
 
 .results-area {
     overflow: scroll;
+    height: 100%;
 }
