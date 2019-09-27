@@ -5,6 +5,7 @@ import Nav from "./components/nav/nav";
 import Main from "./components/main/main";
 import Movies from "./components/movies/movies";
 import TV from "./components/TV/TV";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route exact path="/tv" component={TV} />
         </Switch>
       </Router>
+      <Footer />
     </div>
   );
 }

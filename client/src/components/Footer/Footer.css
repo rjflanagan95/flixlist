@@ -1,0 +1,20 @@
+#footer {
+    height: 35px;
+    width: 100%;
+    border-top: 2px solid white;
+
+    background-color: #44355B;
+    color: white;
+    font-size: small;
+
+    position: sticky;
+    bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer a {
+    color: white;
+}
