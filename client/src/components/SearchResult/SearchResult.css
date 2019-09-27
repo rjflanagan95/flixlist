@@ -5,7 +5,7 @@
     padding: 15px;
     margin: 10px;
 
-    width: 670px;
+    width: 650px;
     height: fit-content;
 
     display: inline-block;
@@ -24,7 +24,6 @@
 .search-release {
     font-style: italic;
     font-size: small;
-    float: right;
 }
 
 .search-overview {
