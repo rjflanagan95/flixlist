@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./movies.css";
 
 import SearchBar from "../SearchBar/SearchBar";
-import SearchResult from "../SearchResult/SearchResult";
+import ResultsArea from "../ResultsArea/ResultsArea";
 import API from "../../utils/API";
 
 class Movies extends Component {
@@ -28,11 +28,7 @@ class Movies extends Component {
         return(
             <div id="movies">
                 <SearchBar searchtext="Search for a movie" search={this.searchMovie} />
-                <div className="results-area">
-                    {this.state.searchResults.map((movie, resultIndex) =>
-                        <SearchResult key={resultIndex} content={movie} />
-                    )}
-                </div>
+                <ResultsArea searchResults={this.state.searchResults} contentType="movie" />
             </div>
         )
     }

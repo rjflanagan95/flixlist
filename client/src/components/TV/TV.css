@@ -3,11 +3,3 @@
     height: 80vh;
     padding-bottom: 25px;
 }
-
-.results-area {
-    overflow: scroll;
-    height: 90%;
-
-    display: grid;
-    grid-template-columns: auto auto;
-}

@@ -62,3 +62,13 @@
 
     text-shadow: 2px 2px #221E22;
 }
+
+@media only screen and (max-width: 450px) {
+    #tab-list {
+        display: block;
+    }
+
+    .nav-tab {
+        margin-left: 25%;
+    }
+}
