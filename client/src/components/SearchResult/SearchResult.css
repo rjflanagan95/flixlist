@@ -5,7 +5,6 @@
     padding: 15px;
     margin: 10px;
 
-    width: 650px;
     height: fit-content;
 
     display: inline-block;
@@ -34,12 +33,29 @@
 
 @media only screen and (max-width: 728px) {
     .search-result {
+        margin-left: 5px;
+        margin-right: 5px;
+
+        display: flex;
+    }
+
+    .search-poster {
+        width: 50%;
+    }
+
+    .search-textarea {
+        width: 50%;
+    }
+
+    .search-poster img {
         width: 100%;
     }
 }
 
 @media only screen and (min-width: 728px) {
-
+    .search-result {
+        width: 650px;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
