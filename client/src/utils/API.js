@@ -11,5 +11,11 @@ export default {
         return axios.put("/api/tv", {
             query: searchTerm
         });
-    }
+    },
+
+    // getTrailer: function(movieID) {
+    //     return axios.put("/api/movies/trailers", {
+    //         query: movieID
+    //     });
+    // }
 }
